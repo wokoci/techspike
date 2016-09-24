@@ -7,6 +7,5 @@ http.get('http://www.google.com/index.html', (res) => {
   res.resume();
 }).on('error', (e) => {
   console.log(`Got error: ${e.message}`);
+  //add tag and get it its details from commandline
 });
-
-
